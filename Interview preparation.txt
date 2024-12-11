@@ -1,0 +1,89 @@
+Intro 
+my name is amrutha i am from khammam and i completed all my education in my home town. currently i am living in hyd ,i done my btech in kits khammam with an aggregate of 62 % and  completed my intermediate with an aggregate of 59.8% in 10th my percentage is 7.4 right now i am working in a company called virtusol since past one and half year, it is a service based company. my role is software test engineer i worked on a product called automate which is related to automobile industry coming to my responsibilities analysis of requirement and writing test scenarios ,test case , executing testcases of both web and mobile application ,after complition of testing we generated bug report based on execution results and i also managed team activities like consolidation of reports , knowledge transfer programs for team members , explained functionality related queries with the team and given demo at client place in the process of implementation part . also performed automation testing on product from past 6 months we used locators like id,name,class name ,xpath relative xpath"//" and absolute xpath"html",css selector ,link text , partial link text,tag name and web drivers like get,navigate,get title , get current url,find element, find elements ,close , quit,get window handle or handles ,switchto ,manage and operators on web elements like click, send keys , clear ,get text,get attribute,get locationx,get locationy,get size,get tagname , isdisplayed ,is enabled , is selected .
+
+operators on web elements 
+--------------------------------------
+1.	Click():- This is used to click on a link, image, button, radio button etc.
+2.	Sendkeys():- This is used for entering the text into input fields.
+3.	Clear():- this is used to clear the input fields
+4.	getText():- This is used to capture the visible text of a webelement
+5.	getAttribute():- This is use to capture the property of the webelement.
+6.	getLocation.x():- This will capture ‘X’ Co-ordinate of a webelement.
+7.	getLocation.y():-This will capture ‘Y’ Co-ordinate of a webelement.
+8.	getSize():- This will capture the size of the webelement.
+9.	getTagName():- This will capture the html tag of the webelement.
+10.	isDisplayed():- This is used to find an element is visible or hidden.
+11.	isEnabled():- This will tell us whether an element is enabled or disabled.
+12.	isSelected():- This will tell us if radio button is selected, checkbox is selected, an option in dropdown is selected.
+
+annotations in testng
+------------------------------
+
+@Test	This represent the testcase, the functionality that has to be automated is given as “@Test”
+@BeforeMethod	This is executed before each test case in the current class.
+@AfterMethod	This is executed after each test case in the current class.
+@BeforeClass	This is executed before each class present in a TestNG “<Test>”
+@AfterClass	This is executed After each class present in a TestNG “<Test>”
+@BeforeTest	This is executed once before all the classes present in a “<Test>”
+@AfterTest	This is executed once after all the classes present in a “<Test>”
+@BeforeGroups	This is executed at the beginning of a specific Group
+@AfterGroups	This is executed at the after of a specific Group
+@BeforeSuit	This is executed only one time at beginning of entire test suit
+@AfterSuit	This is executed only one time at the end of entire test suit
+@parameters	This is used to pass parameters to the test cases from a file called TestNG.xml
+@DataProvidor	This is also used to pass arguments to the test case from within the class. It returns an Object [ ] [ ] (Double Dimensional) array.
+
+
+This is unit testing frame work of java which can be used in selenium for performing regression testing.
+It is used for integrating the various automation programs along with their test data, excel files, database connections, html reports, logs etc., as one entity and then execute them from a single point of control.
+
+Creating Xpaths:-
+
+Syntax:-
+
+//htmltag[@attribute=’value’]
+1.	// : Select current node.
+2.	htmlTagname: Tagname of the particular node.
+3.	@: Select attribute.
+4.	Attribute: Attribute name of the node.
+5.	Value : Value of the attribute.
+
+DYNAMIC XPATH
+
+In some applications we have elements whose xpaths constantly change, they are called as dynamic xpaths and they can be handled using 3 different JavaScript functions.
+
+1.	Starts-with()
+2.	Ends-with()
+3.	Contains()
+
+Start-with function (): Start-with function finds the element whose attribute value changes on refresh or on any operation on the webpage. In this expression, match the starting text of the attribute is used to find the element whose attribute changes dynamically. You can also find the element whose attribute value is static (not changes).
+
+Syntax:-//*[starts-with(@attribute, ‘starting point of value which does not change’)]
+
+Ends-with function ():
+
+Syntax:- //*[ends-with(@attribute, ‘ending point of value which does not change’)]
+
+
+Contains ():is a method used in XPath expression. It is used when the value of any attribute changes dynamically.
+
+Syntax:- //*[contains(@attribute, ‘some portion of value which does not change’)]
+
+CSS SELECTORS
+
+CSS Selector is combination of an element selector and a selector value which identifies the web element within a web page. The composite of element selector and selector value is known as Selector Pattern.
+
+Syntax
+css=<HTML tag><#><Value of ID attribute>
+
+
+
+
+
+
+
+
+
+
+
+
